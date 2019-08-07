@@ -1,5 +1,6 @@
 # Development Environment Config
 
+### Debian Distro
 $ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 $ sudo apt-get install apt-transport-https
 $ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
@@ -9,7 +10,6 @@ $ sudo apt-get install g++
 $ sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
 $ sudo apt-get install libsqlite3-dev
 $ sudo apt-get install git
-
 
 $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 $ mkdir -p "$(rbenv root)"/plugins
@@ -27,6 +27,7 @@ $ sudo apt-get install freetds-dev
 $ gem install tiny-tds
 $ gem install activerecord-sqlserver-adapter
 
+Checks
 > bash --version
 > git --version
 > python --version
@@ -37,6 +38,16 @@ $ gem install activerecord-sqlserver-adapter
 > npm -v
 > node -v
 
+### Windows
+* System Properties -> Advanced System Settings -> Advanced -> Environment Variables
+    * Shortcut is to open command line and type `sysdm.cpl`
+    * Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
+        * To add the System Variable to PATH, Add the following to the end of your PATH variable: ;%SUBLIME%
+        * New commands
+            * `subl.exe` and `subl` both launch app
+            * `subl .` opens current folder within app
+
+### Gitignore
 Git Bash
 `git config --global core.excludesfile ~/.gitignore`
 
@@ -44,19 +55,12 @@ cmd.exe
 `git config --global core.excludesfile %USERPROFILE%\.gitignore`
 
 Sublime Text
-* `git config --global core.editor "C:/Program Files/Sublime Text 3/sublime_text.exe"`
-* Results in an entry in .gitconfig:
+`git config --global core.editor "C:/Program Files/Sublime Text 3/sublime_text.exe`
+
+Results in an entry in .gitconfig:
 `[core]`
 `editor = C:/Program Files/Sublime Text 3/sublime_text.exe`
 `excludesfile = C:/Users/username/.gitignore_global`
-* Windows
-	* System Properties -> Advanced System Settings -> Advanced -> Environment Variables
-	* Shortcut is to open command line and type `sysdm.cpl`
-	* Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
-		* To add the System Variable to PATH, Add the following to the end of your PATH variable: ;%SUBLIME%
-		* New commands
-			* `subl.exe` and `subl` both launch app
-			* `subl .` opens current folder within app
 
 .gitignore_global file contents
 
@@ -116,4 +120,3 @@ Sublime Text
     # vi #
     ######
     *~
-
