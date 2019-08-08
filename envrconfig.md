@@ -5,11 +5,11 @@
 * '$ sudo apt-get install apt-transport-https'
 * '$ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list'
 
-'$ sudo apt-get install build-essential'
-'$ sudo apt-get install g++''
-'$ sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev'
-'$ sudo apt-get install libsqlite3-dev'
-'$ sudo apt-get install git'
+`$ sudo apt-get install build-essential`
+`$ sudo apt-get install g++'`
+`$ sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev`
+`$ sudo apt-get install libsqlite3-dev`
+`$ sudo apt-get install git`
 
 * $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 * $ mkdir -p "$(rbenv root)"/plugins
