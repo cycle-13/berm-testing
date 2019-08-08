@@ -31,6 +31,7 @@ $ gem install activerecord-sqlserver-adapter
 
 Checks
 ...
+
 bash --version
 git --version
 python --version
