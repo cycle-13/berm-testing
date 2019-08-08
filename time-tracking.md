@@ -15,3 +15,5 @@ Day | Date | Hours | Type | Note
 3 | 2019-08-08 | 0.25 | Quiz | Visible PC
 3 | 2019-08-08 | 0.5 | Review | Slides on Motherboards
 3 | 2019-08-08 | 0.5 | Exam | Motherboards
+3 | 2019-08-08 | 0.5 | Review | Slides on Hard Drive Technologies
+3 | 2019-08-08 | 0.5 | Exam | Hard Drives Technologies

@@ -1,5 +1,31 @@
 # Development Environment Config
 
+### Windows
+* Code Editor
+    * SublimeText https://www.sublimetext.com/3
+    * Atom https://atom.io
+    * VS Code https://code.visualstudio.com
+    * VS Codium https://github.com/VSCodium/vscodium/releases
+
+* Alternative command-line interpreters
+    * https://conemu.github.io
+    * https://cmder.net
+
+* Git version control tool
+    * https://git-scm.com/download
+* Git Repositories
+    * https://github.com
+    * https://gitlab.com
+    * https://bitbucket.org
+
+* System Properties -> Advanced System Settings -> Advanced -> Environment Variables
+    * Shortcut is to open command line and type `sysdm.cpl`
+    * Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
+        * To add the System Variable to PATH, Add the following to the end of your PATH variable: ;%SUBLIME%
+        * New commands
+            * `subl.exe` and `subl` both launch app
+            * `subl .` opens current folder within app
+
 ### Debian Distro
 Sublime Text
 * `$ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -`
@@ -30,8 +56,6 @@ $ gem install tiny-tds
 $ gem install activerecord-sqlserver-adapter
 
 Checks
-...
-
 bash --version
 git --version
 python --version
@@ -41,16 +65,6 @@ rbenv -v
 heroku -v
 npm -v
 node -v
-...
-
-### Windows
-* System Properties -> Advanced System Settings -> Advanced -> Environment Variables
-    * Shortcut is to open command line and type `sysdm.cpl`
-    * Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
-        * To add the System Variable to PATH, Add the following to the end of your PATH variable: ;%SUBLIME%
-        * New commands
-            * `subl.exe` and `subl` both launch app
-            * `subl .` opens current folder within app
 
 ### Gitignore
 Git Bash
@@ -64,8 +78,8 @@ Sublime Text
 
 Results in an entry in .gitconfig:
 `[core]`
-`editor = C:/Program Files/Sublime Text 3/sublime_text.exe`
 `excludesfile = C:/Users/username/.gitignore_global`
+`
 
 .gitignore_global file contents
 

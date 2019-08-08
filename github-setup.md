@@ -41,7 +41,7 @@ Host github.com
  UseKeychain yes
  IdentityFile ~/.ssh/id_rsa
  
->#Work GitHub account
+> #Work GitHub account
 Host github.com-work
  HostName github.com
  User git
@@ -51,4 +51,4 @@ Host github.com-work
  
 Use identity specified in config
 > git clone git@github.com:personal/my_repo.git
->$ git clone git@github.com-work:[my work GitHub group]/[my project].git
+> git clone git@github.com-work:[my work GitHub group]/[my project].git
