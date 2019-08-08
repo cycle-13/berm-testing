@@ -1,26 +1,25 @@
 # Development Environment Config
 
 ### Debian Distro
-$ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-$ sudo apt-get install apt-transport-https
-$ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+* '$ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -'
+* '$ sudo apt-get install apt-transport-https'
+* '$ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list'
 
-$ sudo apt-get install build-essential
-$ sudo apt-get install g++
-$ sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
-$ sudo apt-get install libsqlite3-dev
-$ sudo apt-get install git
+* '$ sudo apt-get install build-essential'
+* '$ sudo apt-get install g++''
+* '$ sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev'
+* '$ sudo apt-get install libsqlite3-dev'
+* '$ sudo apt-get install git'
 
-$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-$ mkdir -p "$(rbenv root)"/plugins
-$ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"'
-$ echo 'eval "$(rbenv init -)"'
-$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+* $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+* $ mkdir -p "$(rbenv root)"/plugins
+* $ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+* $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"'
+* $ echo 'eval "$(rbenv init -)"'
+* $ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 
 Ruby < 2.4 is not compatible with openssl 1.1.
 You need to install libssl1.0-dev
-
 curl https://cli-assets.heroku.com/install.sh | sh
 
 $ sudo apt-get install freetds-dev
@@ -28,7 +27,7 @@ $ gem install tiny-tds
 $ gem install activerecord-sqlserver-adapter
 
 Checks
-> bash --version
+> 'bash --version'
 > git --version
 > python --version
 > ruby -v
