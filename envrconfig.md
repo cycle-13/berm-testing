@@ -1,17 +1,17 @@
 # Development Environment Config
 
 Code Editor
-    * SublimeText https://www.sublimetext.com/3
-    * Atom https://atom.io
-    * VS Code https://code.visualstudio.com
-    * VS Codium https://github.com/VSCodium/vscodium/releases
+* SublimeText https://www.sublimetext.com/3
+* Atom https://atom.io
+* VS Code https://code.visualstudio.com
+* VS Codium https://github.com/VSCodium/vscodium/releases
 
 Terminal Emulators and Command-line Interpreters
-    * https://gnometerminator.blogspot.com/p/introduction.html
-    * https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-    * https://github.com/Swordfish90/cool-retro-term
-    * https://conemu.github.io
-    * https://cmder.net
+* https://gnometerminator.blogspot.com/p/introduction.html
+* https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+* https://github.com/Swordfish90/cool-retro-term
+* https://conemu.github.io
+* https://cmder.net
 
 ### Debian Distro
 Sublime Text
