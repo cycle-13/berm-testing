@@ -1,30 +1,17 @@
 # Development Environment Config
 
-### Windows
-* Code Editor
+Code Editor
     * SublimeText https://www.sublimetext.com/3
     * Atom https://atom.io
     * VS Code https://code.visualstudio.com
     * VS Codium https://github.com/VSCodium/vscodium/releases
 
-* Alternative command-line interpreters
+Terminal Emulators and Command-line Interpreters
+    * https://gnometerminator.blogspot.com/p/introduction.html
+    * https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+    * https://github.com/Swordfish90/cool-retro-term
     * https://conemu.github.io
     * https://cmder.net
-
-* Git version control tool
-    * https://git-scm.com/download
-* Git Repositories
-    * https://github.com
-    * https://gitlab.com
-    * https://bitbucket.org
-
-* System Properties -> Advanced System Settings -> Advanced -> Environment Variables
-    * Shortcut is to open command line and type `sysdm.cpl`
-    * Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
-        * To add the System Variable to PATH, Add the following to the end of your PATH variable: ;%SUBLIME%
-        * New commands
-            * `subl.exe` and `subl` both launch app
-            * `subl .` opens current folder within app
 
 ### Debian Distro
 Sublime Text
@@ -55,36 +42,40 @@ $ sudo apt-get install freetds-dev
 $ gem install tiny-tds
 $ gem install activerecord-sqlserver-adapter
 
-Checks
-bash --version
-git --version
-python --version
-ruby -v
-rails -v
-rbenv -v
-heroku -v
-npm -v
-node -v
+### Windows
+* System Properties -> Advanced System Settings -> Advanced -> Environment Variables
+    * Shortcut is to open command line and type `sysdm.cpl`
+    * Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
+        * To add the System Variable to PATH, Add the following to the end of your PATH variable: ;%SUBLIME%
+        * New commands
+            * `subl.exe` and `subl` both launch app
+            * `subl .` opens current folder within app
+
+### Checks
+* bash --version
+* git --version
+* python --version
+* ruby -v
+* rails -v
+* rbenv -v
+* heroku -v
+* npm -v
+* node -v
 
 ### Gitignore
-Git Bash
+Bash
 `git config --global core.excludesfile ~/.gitignore`
 
 cmd.exe
 `git config --global core.excludesfile %USERPROFILE%\.gitignore`
 
-Sublime Text
-`git config --global core.editor "C:/Program Files/Sublime Text 3/sublime_text.exe`
-
 Results in an entry in .gitconfig:
 `[core]`
 `excludesfile = C:/Users/username/.gitignore_global`
-`
 
 .gitignore_global file contents
 
-    #compiled source #
-    ###################
+    #compiled source
     *.com
     *.class
     *.dll
@@ -92,8 +83,7 @@ Results in an entry in .gitconfig:
     *.o
     *.so
      
-    # Packages #
-    ############
+    # Packages
     *.7z
     *.dmg
     *.gz
@@ -103,8 +93,7 @@ Results in an entry in .gitconfig:
     *.tar
     *.zip
      
-    # Logs and databases #
-    ######################
+    # Logs and databases
     *.log
     log/*
     *.sql
@@ -112,30 +101,55 @@ Results in an entry in .gitconfig:
     *.sqlite3
     *.sqlite3-journal
      
-    # OS generated files #
-    ######################
+    # OS generated files
     .DS_Store
     .DS_Store?
     ._*
+    *.app
     .Spotlight-V100
     .Trashes
     ehthumbs.db
     Thumbs.db
+    *.excludes
+    *.json
      
-    # codekit #
-    ###########
+    # codekit
     .sass-cache/
     .codekit-config.json
     config.codekit
     
-    # Node #
-    ########
+    # Node
     npm-debug.log
+
+    # C++ objects and libs
+    *.slo
+    *.lo
+    *.o
+    *.a
+    *.la
+    *.lai
+    *.so
+    *.dll
+    *.dylib
+
+    # Qt-es
+    /.qmake.cache
+    /.qmake.stash
+    *.pro.user
+    *.pro.user.*
+    *.moc
+    moc_*.cpp
+    qrc_*.cpp
+    ui_*.h
+    Makefile*
+    *-build-*
     
-    # WebStorm #
-    ############
+    # WebStorm
     .idea/
     
-    # vi #
-    ######
+    # vi
     *~
+
+    # Others
+    *.xcf
+    *.autosave
