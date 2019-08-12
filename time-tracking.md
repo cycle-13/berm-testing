@@ -22,3 +22,4 @@ Day | Date | Hours | Type | Note
 4 | 2019-08-08 | 0.5 | Quiz | Microprocessors
 4 | 2019-08-09 | 1.0 | Review | Slides on Implementing Hard Drives
 4 | 2019-08-08 | 0.5 | Quiz | Implementing Hard Drives
+5 | 2019-08-12 | 1.0 | Lab | Lab 1.4.0 Computer disably and reassembly
