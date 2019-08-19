@@ -43,6 +43,11 @@ $ gem install tiny-tds
 $ gem install activerecord-sqlserver-adapter
 
 ### Windows
+
+Download Git
+* https://git-scm.com/download
+
+Add Sublime Text to PATH
 * System Properties -> Advanced System Settings -> Advanced -> Environment Variables
     * Shortcut is to open command line and type `sysdm.cpl`
     * Create a new system variable called SUBLIME that will point to the folder of your Sublime installation
