@@ -9,16 +9,16 @@ Day | Date | Hours | Type | Note
 2 | 2019-08-07 | 1.0 | Linux Install | https://docs.microsoft.com/en-us/windows/wsl/install-win10
 2 | 2019-08-07 | 0.05 | Putty Install | https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 2 | 2019-08-07 | 0.5 | vSpere Install | http://vsphereclient.vmware.com/vsphereclient/VMware-viclient-all-6.0.0.exe
-2 | 2019-08-07 | 4 | Study | Slides on visible PC, mobo, hd, peripherals
+2 | 2019-08-07 | 4 | Study | Visible PC, mobo, hd, peripherals slides
 3 | 2019-08-08 | 0.5 | Quiz | Peripherals
-3 | 2019-08-08 | 1 | Lecture | Slides on Visible PC
+3 | 2019-08-08 | 1 | Lecture | Visible PC slides
 3 | 2019-08-08 | 0.25 | Quiz | Visible PC
-3 | 2019-08-08 | 0.5 | Lecture | Slides on Motherboards
+3 | 2019-08-08 | 0.5 | Lecture | Motherboards slides
 3 | 2019-08-08 | 0.5 | Quiz | Motherboards
-3 | 2019-08-08 | 0.5 | Lecture | Slides on Hard Drive Technologies
+3 | 2019-08-08 | 0.5 | Lecture | Hard Drive Technologies slides
 3 | 2019-08-08 | 0.5 | Quiz | Hard Drives Technologies
 3 | 2019-08-08 | 0.5 | Study | Free study
-4 | 2019-08-09 | 0.5 | Lecture | Slides on Microprocessors
+4 | 2019-08-09 | 0.5 | Lecture | icroprocessors slides
 4 | 2019-08-08 | 0.5 | Quiz | Microprocessors
 4 | 2019-08-09 | 1.0 | Lecture | Slides on Implementing Hard Drives
 4 | 2019-08-08 | 0.5 | Quiz | Implementing Hard Drives
@@ -28,6 +28,9 @@ Day | Date | Hours | Type | Note
 6 | 2019-08-13 | 1.0 | Study | Data Center Concepts slides
 6 | 2019-08-13 | 1.0 | Homework | Summary of Data Center Concepts
 6 | 2019-08-13 | 1.0 | Review | Hardest topics from quizes
-7 | 2019-08-14 | 1.0 | Lecture	| Slides on Data Center Security
+7 | 2019-08-14 | 1.0 | Lecture	| Data Center Security slides
 9 | 2019-08-16 | 6.0 | Study | NDG Linux Essentials
-10 | 2019-08-19 | 
+10 | 2019-08-19 | 1.0 | Lecture | Cloud Computing slides
+11 | 2019-08-19 | 1.0 | Lab | Work on Labs 2.1.0, 2.1.1, 2.4.0
+12 | 2019-08-20 | 3.0 | Quiz | Retention Quiz 1.1-1.2, 1.5, 2.1-2.4
+13 | 2019-08-21 | 2.0 | Lecture | Networking
