@@ -2,35 +2,45 @@
 	
 Day | Date | Hours | Type | Note
 ------------ | ------------- | ------------- | ------------- | -------------
-1 | 2019-08-05 | 2.5 | Lecture | https://www.youtube.com/watch?v=ecIWPzGEbFc
-1 | 2019-08-05 | 1.0 | Study | https://perscholas.instructure.com/courses/166
-1 | 2019-08-05 | 7.5 | Reading | http://index-of.co.uk/Theory-of-Computation/Charles_Petzold-Annotated_Turing-Wiley(2008).pdf
-2 | 2019-08-07 | 1.0 | Lecture | https://www.youtube.com/watch?v=a-BOSpxYJ9M
-2 | 2019-08-07 | 1.0 | Linux Install | https://docs.microsoft.com/en-us/windows/wsl/install-win10
-2 | 2019-08-07 | 0.05 | Putty Install | https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-2 | 2019-08-07 | 0.5 | vSpere Install | http://vsphereclient.vmware.com/vsphereclient/VMware-viclient-all-6.0.0.exe
-2 | 2019-08-07 | 4 | Study | Visible PC, mobo, hd, peripherals slides
-3 | 2019-08-08 | 0.5 | Quiz | Peripherals
-3 | 2019-08-08 | 1 | Lecture | Visible PC slides
-3 | 2019-08-08 | 0.25 | Quiz | Visible PC
-3 | 2019-08-08 | 0.5 | Lecture | Motherboards slides
-3 | 2019-08-08 | 0.5 | Quiz | Motherboards
-3 | 2019-08-08 | 0.5 | Lecture | Hard Drive Technologies slides
-3 | 2019-08-08 | 0.5 | Quiz | Hard Drives Technologies
-3 | 2019-08-08 | 0.5 | Study | Free study
-4 | 2019-08-09 | 0.5 | Lecture | icroprocessors slides
-4 | 2019-08-08 | 0.5 | Quiz | Microprocessors
-4 | 2019-08-09 | 1.0 | Lecture | Slides on Implementing Hard Drives
-4 | 2019-08-08 | 0.5 | Quiz | Implementing Hard Drives
-5 | 2019-08-12 | 1.0 | Lab | Lab 1.4.0 Computer disably and reassembly
-6 | 2019-08-13 | 0.5 | Lecture | Slides on RAM
-6 | 2019-08-13 | 0.5 | Quiz | RAM
-6 | 2019-08-13 | 1.0 | Study | Data Center Concepts slides
-6 | 2019-08-13 | 1.0 | Homework | Summary of Data Center Concepts
-6 | 2019-08-13 | 1.0 | Review | Hardest topics from quizes
-7 | 2019-08-14 | 1.0 | Lecture	| Data Center Security slides
-9 | 2019-08-16 | 6.0 | Study | NDG Linux Essentials
+01 | 2019-08-05 | 2.5 | Lecture | https://www.youtube.com/watch?v=ecIWPzGEbFc
+01 | 2019-08-05 | 7.5 | Reading | http://index-of.co.uk/Theory-of-Computation/Charles_Petzold-Annotated_Turing-Wiley(2008).pdf
+02 | 2019-08-07 | 1.0 | Linux Install | https://docs.microsoft.com/en-us/windows/wsl/install-win10
+02 | 2019-08-07 | 0.05 | Putty Install | https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+02 | 2019-08-07 | 4 | Study | Visible PC, mobo, hd, peripherals slides
+03 | 2019-08-08 | 0.5 | Quiz | Peripherals
+03 | 2019-08-08 | 1 | Lecture | Visible PC slides
+03 | 2019-08-08 | 0.25 | Quiz | Visible PC
+03 | 2019-08-08 | 0.5 | Lecture | Motherboards slides
+03 | 2019-08-08 | 0.5 | Quiz | Motherboards
+03 | 2019-08-08 | 0.5 | Lecture | Hard Drive Technologies slides
+03 | 2019-08-08 | 0.5 | Quiz | Hard Drives Technologies
+03 | 2019-08-08 | 0.5 | Study | Free study
+04 | 2019-08-08 | 0.5 | Quiz | Microprocessors
+04 | 2019-08-08 | 0.5 | Quiz | Implementing Hard Drives
+05 | 2019-08-12 | 1.0 | Lab | Lab 1.4.0 Computer disably and reassembly
+06 | 2019-08-13 | 0.5 | Lecture | Slides on RAM
+06 | 2019-08-13 | 0.5 | Quiz | RAM
+06 | 2019-08-13 | 1.0 | Study | Data Center Concepts slides
+06 | 2019-08-13 | 1.0 | Homework | Summary of Data Center Concepts
+06 | 2019-08-13 | 1.0 | Review | Hardest topics from quizes
+07 | 2019-08-14 | 1.0 | Lecture	| Data Center Security slides
+09 | 2019-08-16 | 6.0 | Study | NDG Linux Essentials
 10 | 2019-08-19 | 1.0 | Lecture | Cloud Computing slides
 11 | 2019-08-19 | 1.0 | Lab | Work on Labs 2.1.0, 2.1.1, 2.4.0
 12 | 2019-08-20 | 3.0 | Quiz | Retention Quiz 1.1-1.2, 1.5, 2.1-2.4
 13 | 2019-08-21 | 2.0 | Lecture | Networking
+15 | 2019-08-23 | 1.5 | Lecture | Cisco Networking Essentials
+20 | 2019-08-30 | 1.0 | Study | NDG Introduction to Linux 1
+21 | 2019-09-03 | 1.5 | Study | NDG Introduction to Linux 1
+21 | 2019-09-03 | 1.5 | Quiz | NDG Introduction to Linux 1 ch 1-4
+21 | 2019-09-03 | 3.0 | Lecture | NDG Introduction to Linux 1
+22 | 2019-09-04 | 3.5 | Study | NDG Introduction to Linux 1
+23 | 2019-09-05 | 1.0 | Lecture | NDG Introduction to Linux 1
+23 | 2019-09-05 | 1.0 | Lecture | Regular Expressions https://regexone.com
+25 | 2019-09-09 | 5.0 | Lab | Set up CentOS Server https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation
+26 | 2019-09-10 | 4.0 | Study | NDG Introduction to Linux 1
+26 | 2019-09-10 | 2.0 | Test | Linux Practice Exam
+27 | 2010-09-10 | 3.0 | Study | NDG Introduction to Linux 1
+28 | 2010-09-11 | 3.0 | Study | NDG Introduction to Linux 1
+28 | 2010-09-11 | 4.0 | Study | NDG Introduction to Linux 1
+27 | 2010-09-10 | 2.0 | Test | Linux Practice Exam

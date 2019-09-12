@@ -8,6 +8,7 @@ Code Editor
 
 Terminal Emulators and Command-line Interpreters
 * https://gnometerminator.blogspot.com/p/introduction.html
+* https://gnunn1.github.io/tilix-web/
 * https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 * https://github.com/Swordfish90/cool-retro-term
 * https://conemu.github.io
