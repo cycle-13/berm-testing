@@ -40,7 +40,31 @@ Day | Date | Hours | Type | Note
 25 | 2019-09-09 | 5.0 | Lab | Set up CentOS Server https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation
 26 | 2019-09-10 | 4.0 | Study | NDG Introduction to Linux 1
 26 | 2019-09-10 | 2.0 | Test | Linux Practice Exam
-27 | 2010-09-10 | 3.0 | Study | NDG Introduction to Linux 1
-28 | 2010-09-11 | 3.0 | Study | NDG Introduction to Linux 1
-28 | 2010-09-11 | 4.0 | Study | NDG Introduction to Linux 1
-27 | 2010-09-10 | 2.0 | Test | Linux Practice Exam
+27 | 2019-09-10 | 3.0 | Study | NDG Introduction to Linux 1
+28 | 2019-09-11 | 3.0 | Study | NDG Introduction to Linux 1
+28 | 2019-09-11 | 4.0 | Study | NDG Introduction to Linux 1
+28 | 2019-09-10 | 2.0 | Test | Linux Practice Exam
+29 | 2019-09-11 | 1.0 | Test | NDG Introduction to Linux 1 Midterm ch 1-14
+32 | 2019-09-16 | 2.0 | Test | LX0-103-V3 Practice Exam
+33 | 2019-09-17 | 2.0 | Test | LX0-104-V1 Practice Exam
+34 | 2019-09-18 | 1.0 | Test | LX0-103-V2 Practice Exam
+34 | 2019-09-18 | 1.0 | Test | LX0-104-V2 Practice Exam
+34 | 2019-09-19 | 1.0 | Test | LX0-103-V1 Practice Exam
+34 | 2019-09-19 | 1.0 | Test | LX0-103-V2 Practice Exam
+34 | 2019-09-19 | 1.0 | Test | LX0-103-V3 Practice Exam
+34 | 2019-09-19 | 1.0 | Test | LX0-104-V1 Practice Exam
+34 | 2019-09-19 | 1.0 | Test | LX0-104-V2 Practice Exam
+34 | 2019-09-19 | 1.0 | Test | LX0-104-V3 Practice Exam
+35 | 2019-09-20 | 2.0 | Lab | Bash Script: user check, user add, password, email
+35 | 2019-09-20 | 0.5 | Test | NDG Introduction to Linux 1 Midterm ch 1-14
+35 | 2019-09-20 | 0.5 | Test | NDG Introduction to Linux 1 Final ch 15-27
+35 | 2019-09-20 | 0.5 | Test | NDG Introduction to Linux 1 Final Comprehensive ch 1-27
+35 | 2019-09-20 | 0.5 | Test | NDG Introduction to Linux 2 Midterm ch 1-9
+35 | 2019-09-20 | 0.5 | Test | NDG Introduction to Linux 2 Final ch 10-19
+35 | 2019-09-20 | 0.5 | Test | NDG Introduction to Linux 2 Final Comprehensive ch 1-19
+36 | 2019-09-23 | 0.5 | Test | LX0-103-V1 Practice Exam
+36 | 2019-09-23 | 0.5 | Test | LX0-103-V2 Practice Exam
+36 | 2019-09-23 | 0.5 | Test | LX0-103-V3 Practice Exam
+36 | 2019-09-23 | 0.5 | Test | NDG Introduction to Linux 1 Midterm ch 1-14
+36 | 2019-09-23 | 0.5 | Test | NDG Introduction to Linux 1 Final ch 15-27
+36 | 2019-09-23 | 0.5 | Test | NDG Introduction to Linux 1 Final Comprehensive ch 1-27
